@@ -1,0 +1,55 @@
+ body {
+        background-color: silver;
+        }
+      h1 {
+        background-color: yellow;
+        border: 8px solid blue;
+        color: black;
+        font-size: 60px;
+        text-align: center;
+        }
+      h2 {
+        background-color: orange;
+        border: 6px dotted green;
+        color: yelow;
+        font-size: 50px;
+        text-align: center;
+        }
+      h3 {
+        background-color: lightblue;
+        border: 4px solid DodgerBlue;
+        color: green;
+        font-size: 40px;
+        text-align: left;
+        }
+      li {
+        color: navy;
+        font-size: 30px;
+        text-align: left;
+        }
+      p {
+        color: green;
+        font-size: 20px;
+        font-family: italic;
+        }
+      div {
+        width: 800px;
+        font-size: 40px;
+        padding: 20px;
+        border: 10px dotted blue;
+        margin: 10px;
+        }
+       table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         width: 100%;
+        }
+        th, td {
+          padding: 15px;
+          text-align: left;
+        }
+      img {
+        width: 600px;
+        height: 300px;
+        margin: 20px 20px;
+        }
