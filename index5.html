@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Insule exotice</title>
+        <link rel="stylesheet" href="custom5.css">
+</head>
+<body>
+<h1>Destinatii exotice ... de vizitat</h1>
+<p>Pentru inceput, un mic top si cateva detalii despre ... insule exotice</p>
+<button type="button" onclick="myFunction()">Show TOP 3</button>
+<p id="demo">TOP 3 insule de vizitat</p>
+<script>
+function myFunction() { 
+    document.getElementById("demo").innerHTML = "1 Mauritius - 2 Maldive - 3 Bora Bora";
+    document.getElementById("demo").style.fontSize = "40px"; 
+    document.getElementById("demo").style.color = "blue";
+    document.getElementById("demo").style.backgroundColor = "yellow";
+}
+</script>
+<table id="customers">
+    <tr>
+        <th>Pozitie</th>
+        <th>Denumire</th>
+        <th>Locatie</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>MAURITIUS</td>
+        <td>Oceanul Indian</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>MALDIVE</td>
+        <td>Oceanul Indian</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>BORA BORA</td>
+        <td>Oceanul Pacific</td>
+    </tr>
+</table>
+<script>
+function insule(sw) {
+    var picture;
+    if (sw == 0) {
+        picture = "https://www.elanatour.ro/upload/packages/_mauritius_flic-en-flac_7.jpg"
+                } 
+    else if (sw == 1) {
+        picture = "https://pix10.agoda.net/hotelImages/1184769/-1/abfc8fc11ad3a94e1196c6a2eca9c260.jpg?s=1024x768"
+                        }
+        else {
+        picture = "https://www.tahiti.com/images1/thumbs/BOBITS-Aerial-1200x720.jpg"
+            }
+    document.getElementById('myImage').src = picture;
+                    }
+</script>
+<img id="myImage" src="https://specials-images.forbesimg.com/imageserve/930322352/960x0.jpg?fit=scale" width="800" height="300">
+<p>
+    <button type="button" onclick="insule(0)">1 - MAURITIUS</button>
+    <button type="button" onclick="insule(1)">2 - MALDIVE</button>
+    <button type="button" onclick="insule(2)">3 - BORA BORA</button>
+</p>
+</body>
+</html>

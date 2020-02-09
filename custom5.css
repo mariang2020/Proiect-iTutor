@@ -1,0 +1,44 @@
+body {
+  background-color: azure;
+  background-image: url("https://www.easyglasssplashbacks.co.uk/wp-content/uploads/product_images/printed-landscapes-glass-splashback-tropical-beach-huts.png");
+  }
+h1 {
+  background-color: lightgreen;
+  border: 8px solid gray;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  }
+p {
+  color: red;
+  font-size: 30px;
+  font-family: italic;
+  }
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+#customers td, #customers th {
+  border: 1px solid black;
+  padding: 8px;
+  }
+#customers tr:nth-child(even){ 
+  background-color: lightgreen; 
+  }
+#customers tr:hover{ 
+  background-color: yellow; 
+  }
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+  }
+button {
+  color: black;
+  width: 100px;
+  height: 40px;
+  margin: 10px 10px;
+  }
