@@ -1,55 +1,82 @@
- body {
-        background-color: silver;
+body {
+  background-color: lightgreen;
+  background-image: url("https://www.jurnal365.ro/wp-content/uploads/2016/09/floare_de_colt.jpg");
+}
+h1 {
+  background-color: yellow;
+  border: 8px solid blue;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: 30px;
+  font-family: italic;
         }
-      h1 {
-        background-color: yellow;
-        border: 8px solid blue;
-        color: black;
-        font-size: 60px;
-        text-align: center;
-        }
-      h2 {
-        background-color: orange;
-        border: 6px dotted green;
-        color: yelow;
-        font-size: 50px;
-        text-align: center;
-        }
-      h3 {
-        background-color: lightblue;
-        border: 4px solid DodgerBlue;
-        color: green;
-        font-size: 40px;
-        text-align: left;
-        }
-      li {
-        color: navy;
-        font-size: 30px;
-        text-align: left;
-        }
-      p {
-        color: green;
-        font-size: 20px;
-        font-family: italic;
-        }
-      div {
-        width: 800px;
-        font-size: 40px;
-        padding: 20px;
-        border: 10px dotted blue;
-        margin: 10px;
-        }
-       table, th, td {
-         border: 1px solid black;
-         border-collapse: collapse;
-         width: 100%;
-        }
-        th, td {
-          padding: 15px;
-          text-align: left;
-        }
-      img {
-        width: 600px;
-        height: 300px;
-        margin: 20px 20px;
-        }
+div.static {
+  position: static;
+  border: 6px solid red;
+  font-size: 40px;
+  color: blue;
+  background-color: azure;
+  text-align: left;
+}
+div.fixed {
+  position: fixed;
+  background-color: greenyellow;
+  color: red;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+  width: 500px;
+  border: 3px solid red;
+}
+div.relative1 {
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: green;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 6px solid green;
+}
+div.absolute1 {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  width: 200px;
+  height: 100px;
+  border: 4px dotted red;
+}
+div.relative2 {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 6px solid green;
+}
+div.absolute2 {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  width: 200px;
+  height: 100px;
+  border: 4px solid red;
+}
+div.sticky {
+  position: sticky;
+  font-size: 25px;
+  color: green;
+  text-align: center;
+  top: 0;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid green;
+}
